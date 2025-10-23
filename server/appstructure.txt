@@ -1,0 +1,62 @@
+/* backend */
+
+>server
+    --middlewares/
+        --auth.js
+    --models/
+        --Pass.js
+        --Transaction.js
+        --User.js
+    --node_modules/
+    --routes/
+        --auth.js
+        --dashboard.js
+        --history.js
+        --index.js
+        --pass.js
+        --payment.js
+        --transactions.js
+        --users.js
+    --.env
+    --app.js
+    --clear.js
+    --package-lock.json
+    --package.json
+
+/* Frontend */
+
+>transport-pass-Frontend
+    --node_modules
+    --src/
+        --api/
+            --axios.js
+        --components/
+            --Footer.jsx
+            --Header.jsx
+        --context/
+            --AuthContext.js
+        --pages/
+            --BuyPass.jsx
+            --ChangePassword.jsx
+            --Dashboard.jsx
+            --ForgotPassword.jsx
+            --History.jsx
+            --Home.jsx
+            --Login.jsx
+            --Payment.jsx
+            --Profile.jsx
+            --ReserPassword.jsx
+            --Signup.jsx
+            --Transactions.jsx
+        --App.css 
+        --App.test.js
+        --index.css
+        --index.js
+        --reportWebVitals.js
+        --setupTests.js
+    --package-lock.json
+    --package.json
+    --postcss.config.js
+    --Readme.md 
+    --Tailwind.config.js
+    
